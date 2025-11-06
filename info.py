@@ -66,26 +66,12 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
-DATABASE_URI = environ.get("from pymongo import MongoClient
-
-MONGO_URI = "mongodb://greenmovies325:1234567890@cluster0-shard-00-00.zuu4a.mongodb.net:27017,cluster0-shard-00-01.zuu4a.mongodb.net:27017,cluster0-shard-00-02.zuu4a.mongodb.net:27017/?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"
-
-client = MongoClient(MONGO_URI)
-
-db = client["BLACKCAT"]  
-collection = db["users"]  ")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get("mongodb+srv://greenmovies325:1234567890@cluster0.zuu4a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "techvjclonefilterbot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 # If Multiple Database Is True Then Fill All Three Below Database Uri Else You Will Get Error.
-O_DB_URI = environ.get('O_DB_URI', "from pymongo import MongoClient
-
-MONGO_URI = "mongodb://greenmovies325:1234567890@cluster0-shard-00-00.zuu4a.mongodb.net:27017,cluster0-shard-00-01.zuu4a.mongodb.net:27017,cluster0-shard-00-02.zuu4a.mongodb.net:27017/?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority"
-
-client = MongoClient(MONGO_URI)
-
-db = client["BLACKCAT"]  
-collection = db["users"]")   # This Db Is For Other Data Store
+O_DB_URI = environ.get("mongodb+srv://greenmovies325:1234567890@cluster0.zuu4a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For Other Data Store
 F_DB_URI = environ.get('F_DB_URI', "mongodb+srv://rajraswin51:qFHDBJWVtX9U97cS@cluster0.5ypdk.mongodb-stage.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db Is For File Data Store
 S_DB_URI = environ.get('S_DB_URI', "mongodb+srv://rajraswin1:1234567890@cluster0.6gc8o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # This Db is for File Data Store When First Db Is Going To Be Full.
 
@@ -215,6 +201,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
