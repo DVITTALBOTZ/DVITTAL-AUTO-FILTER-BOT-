@@ -97,6 +97,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'greenmovie_botz') # Pu
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/olamfilmsbot')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/fluxfileoffical')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'olamfilmsbot') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Edisonwriter')
 
 
 # True Or False
@@ -201,6 +202,7 @@ else:
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
