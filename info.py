@@ -90,7 +90,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Mythicframeschat')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Mythicframes')
-SUPPORT_CHAT = environ.get('ANINE EXPLAINATATION CHANNEL', 'https://youtube.com/@realanimeunlocked?si=HqCxigBAoEEPifc_') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('ANINE EXPLAINATATION CHANNEL', 'youtube.com/@realanimeunlocked?si=HqCxigBAoEEPifc_') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('ANIME EDITS CHANNEL', 'https://youtube.com/@itachiuchiha-y2rc?si=1CbuRMFyApRrOoIh')
 
 # True Or False
@@ -196,5 +196,6 @@ else:
 # Don't Remove Credit @VJ_Bots
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
