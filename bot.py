@@ -55,11 +55,11 @@ async def start():
     b_users, b_chats = await db.get_banned()
     temp.BANNED_USERS = b_users
     temp.BANNED_CHATS = b_chats
-    me = await DVITTALBOTZ.get_me()
-    temp.BOT = DVITTALBOTZ
-    temp.ME = me.id
-    temp.U_NAME = me.username
-    temp.B_NAME = me.first_name
+    me = await TechVJBot.get_me()
+temp.BOT = TechVJBot
+temp.ME = me.id
+temp.U_NAME = me.username
+temp.B_NAME = me.first_name
     logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
@@ -96,6 +96,7 @@ if __name__ == '__main__':
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
+
 
 
 
