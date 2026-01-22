@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @DVITTALBOTZ
+# Subscribe Telegram Channel For Amazing Bot @DVITTALBOTZ
+# Ask Doubt on telegram @DVITTALBOTZ_Disscussion
 
 import os, string, logging, random, asyncio, time, datetime, re, sys, json, base64
 from Script import script
@@ -1404,6 +1404,7 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
 
