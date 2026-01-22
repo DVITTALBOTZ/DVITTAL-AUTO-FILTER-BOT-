@@ -2,7 +2,7 @@
   <img src="https://graph.org/file/42f5be71fbe9d912e9a9e-f44afd3d0546a20042.jpg" alt="DVITTAL-AUTO-FILTER-BOT Logo">
 </p>
 <h1 align="center">
-  VJ FILTER BOT
+  DVITTAL-AUTO-FILTER-BOT
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+DVITTAL+AUTO+FILTER+Bot!)
@@ -320,6 +320,7 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 </pre>
 </p>
 </details>
+
 
 
 
