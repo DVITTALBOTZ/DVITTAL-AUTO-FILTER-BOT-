@@ -1,8 +1,8 @@
-# Don't Remove Credit @VJ_Bots
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit @DVITTALBOTZ
+# Subscribe Telegram Channel For Amazing Bot @DVITTALBOTZ
+# Ask Doubt on telegram @DVITTALBOTZ_Disscussion
 
-# Clone Code Credit : YT - @Tech_VJ / TG - @VJ_Bots / GitHub - @VJBots
+# Clone Code Credit : Telegram - @DVITTALBOTZ / DV - @DVITTALBOTZ / GitHub - @DVITTALBOTZ 
 
 import sys, glob, importlib, logging, logging.config, pytz, asyncio
 from pathlib import Path
@@ -49,14 +49,14 @@ async def start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("Tech VJ Imported => " + plugin_name)
+            print("DVITTALBOTZ Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server())
     b_users, b_chats = await db.get_banned()
     temp.BANNED_USERS = b_users
     temp.BANNED_CHATS = b_chats
-    me = await TechVJBot.get_me()
-    temp.BOT = TechVJBot
+    me = await DVITTALBOTZ.get_me()
+    temp.BOT = DVITTALBOTZ
     temp.ME = me.id
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
@@ -96,5 +96,6 @@ if __name__ == '__main__':
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
+
 
 
