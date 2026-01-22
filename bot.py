@@ -2,8 +2,7 @@
 # Subscribe Telegram Channel For Amazing Bot @DVITTALBOTZ
 # Ask Doubt on telegram @DVITTALBOTZ_Disscussion
 
-# Clone Code Credit : Telegram - @DVITTALBOTZ / DV - @DVITTALBOTZ / GitHub - @DVITTALBOTZ 
-
+# Clone Code Credit : Telegram - @DVITTALBOTZ / DV - @DVITTALBOTZ / GitHub - @DVITTALBOTZ
 import sys, glob, importlib, logging, logging.config, pytz, asyncio
 from pathlib import Path
 
@@ -49,17 +48,17 @@ async def start():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
-            print("DVITTALBOTZ Imported => " + plugin_name)
+            print("Tech VJ Imported => " + plugin_name)
     if ON_HEROKU:
         asyncio.create_task(ping_server())
     b_users, b_chats = await db.get_banned()
     temp.BANNED_USERS = b_users
     temp.BANNED_CHATS = b_chats
     me = await TechVJBot.get_me()
-temp.BOT = TechVJBot
-temp.ME = me.id
-temp.U_NAME = me.username
-temp.B_NAME = me.first_name
+    temp.BOT = TechVJBot
+    temp.ME = me.id
+    temp.U_NAME = me.username
+    temp.B_NAME = me.first_name
     logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
@@ -96,7 +95,4 @@ if __name__ == '__main__':
         loop.run_until_complete(start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
-
-
-
 
