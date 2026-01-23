@@ -297,6 +297,11 @@ Edit info.py with variables as given below then run bot
 
 <hr>
 
+## 📊 GitHub Stats
+![Stats](https://github-readme-stats.vercel.app/api?username=DVITTALBOTZ&show_icons=true&theme=tokyonight)
+
+
+
 
 ## Thanks to 
  - <b>Thanks To [Pyrogram Library](https://github.com/pyrogram/pyrogram) & [Pyrofork Library](https://github.com/Mayuri-Chan/pyrofork)
@@ -320,14 +325,6 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.</b>
 </pre>
 </p>
 </details>
-
-
-
-
-## 📊 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=DVITTALBOTZ&show_icons=true&theme=tokyonight)
-
-
 
 
 
