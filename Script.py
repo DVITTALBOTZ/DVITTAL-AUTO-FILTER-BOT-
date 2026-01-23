@@ -244,7 +244,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : <b><a href='https://t.me/DVITTALBOTZ'>{file_caption}</a></b>
+    CAPTION = """<b>📂 <b><a href='https://t.me/DVITTALBOTZ'>{file_caption}</a></b>"""
 
 <b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
 
@@ -754,6 +754,7 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
 
 
 
